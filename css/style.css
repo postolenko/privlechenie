@@ -560,6 +560,7 @@ textarea:focus {
 .section {
     /*min-height: 100vh;*/
     background-color: #2e1466;
+    padding: 0 30px;
 }
 
 .section_1 {
@@ -575,8 +576,8 @@ textarea:focus {
     background-position: center;
     background-size: cover;
     -webkit-box-shadow: 4px 11px 16px 0px rgba(0,0,0,0.3);
--moz-box-shadow: 4px 11px 16px 0px rgba(0,0,0,0.3);
-box-shadow: 4px 11px 16px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 4px 11px 16px 0px rgba(0,0,0,0.3);
+    box-shadow: 4px 11px 16px 0px rgba(0,0,0,0.3);
 }
 
 .section_1 .inner_wrapp {
