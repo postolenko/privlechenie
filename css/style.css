@@ -576,6 +576,7 @@ textarea:focus {
 
 .section_1 .inner_wrapp {
     padding-top: 58px;
+    background-image: url(../img/section_1_bg.png);
 }
 
 .two-cols-templ {
@@ -1793,6 +1794,129 @@ p.grey-p {
 }
 
 /*-- /Section 12 --*/
+
+/*-- Section 13 --*/
+
+.section_13 {
+    background: #872fc3;
+}
+
+.contacts_wrapp {
+    position: relative;
+    background-color: #ffffff;
+    background-image: url(../img/map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 0 !important;
+}
+
+.contacts_wrapp .row {
+    position: relative;
+    z-index: 2;
+}
+
+.contacts-block {
+    display: inline-block;
+    vertical-align: top;
+    background: rgba(255, 255, 255, .95);
+    padding: 56px 5.5% 30px 5.5%;
+}
+
+.contacts-block h2 {
+    padding: 6px 0;
+}
+
+.contacts-field {
+    padding: 8px 0;
+}
+
+.contacts-field h3 {
+    font-family: "Roboto", "Arial", "Verdana", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: bold;
+    color: #b6b6b6;
+}
+
+.contacts-field p {
+    font-family: "Roboto", "Arial", "Verdana", sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: normal;
+    color: #474747;
+}
+
+.contacts-field p .small {
+    font-size: 14px;
+}
+
+.contacts-field a {
+    font-family: "Roboto", "Arial", "Verdana", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.soc-links {
+    margin: 7px -8px;
+}
+
+.soc-links li {
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    padding: 8px;
+}
+
+.soc-links li a {
+    opacity: .5;
+   -webkit-transition-property: all;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: all;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: all;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: all;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.soc-links li a:link,
+.soc-links li a:visited {
+    opacity: .5;
+}
+
+.soc-links li a.active,
+.soc-links li a:active {
+    opacity: 1;
+}
+
+.soc-links li a:hover {
+    opacity: 1;
+}
+
+#map {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*-- /Section 13 --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
