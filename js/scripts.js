@@ -46,6 +46,23 @@ $(document).ready(function() {
 
     });
 
+    var itemNum = 0;
+
+    $(".num-mark").each(function() {
+
+        $(this).find("li").each(function() {
+
+            itemNum++;
+
+            $(this).prepend("<span class='item-num'>" + itemNum + ".</span>");
+
+
+
+
+        });
+
+    });
+
 
     function getSectionHeight() {
 
