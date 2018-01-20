@@ -1525,7 +1525,7 @@ p.grey-p {
 
 /*-- /Section 10 --*/
 
-/*-- /Section 10 --*/
+/*-- /Section 11 --*/
 
 .section_11 {
     background: #404baf;
@@ -1664,7 +1664,135 @@ p.grey-p {
     line-height: 26px;
 }
 
-/*-- /Section 10 --*/
+/*-- /Section 11 --*/
+
+/*-- Section 12 --*/
+
+.section_12 {
+    background: #872fc3;
+}
+
+.section_12 .inner_wrapp {
+    background-image: url(../img/section_13_bg.png);
+}
+
+.thumbnails_8 {
+    height: 400px;
+    margin: 4px 0;
+}
+
+.thumb_8 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 32px 1%;
+    padding: 3px 12px 6px 12px;
+    background-color: rgba(91, 27, 143, .6);
+    -webkit-box-shadow: 0 8px 24px 0 rgba(35, 9, 66, .35);
+    -moz-box-shadow: 0 8px 24px 0 rgba(35, 9, 66, .35);
+    box-shadow: 0 8px 24px 0 rgba(35, 9, 66, .35);
+}
+
+.thumb_8 .img-box {
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    padding: 11px 0;
+}
+
+.thumb_8 .img-box img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.thumb_8 p {
+    padding: 5px 0;
+    font-family: "Roboto", "Arial", "Verdana", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, .6);
+}
+
+.thumb_8_1 {
+    width: 256px;
+    margin-left: 12%;
+}
+
+.thumb_8_2 {
+    width: 185px;
+    margin: 0 4%;
+}
+
+.thumb_8_3 {
+    width: 256px;
+    padding-left: 37px;
+    padding-right: 37px;
+    margin-left: 12%;
+}
+
+.thumb_8_4 {
+    width: 297px;
+    margin-left: 6%;
+    padding-bottom: 12px;
+}
+
+.thumb_8_4 .img-box {
+    padding: 27px 10px 10px 10px;
+}
+
+.thumb_8_5 {
+    width: 259px;
+    margin-left: 5.5%;
+}
+
+.thumb_8.nobg {
+    background: none;
+    box-shadow: none;
+}
+
+.thumb_8_link {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 38px 0 0;
+    position: relative;
+    font-family: "Roboto", "Arial", "Verdana", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.thumb_8_link:before {
+    display: block;
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: #ffffff;
+    position: absolute;
+    top: 0;
+    right: 25px;
+}
+
+.thumb_8_link:after {
+    display: block;
+    content: "";
+    width: 15px;
+    height: 26px;
+    background-image: url(../img/right_arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin: -13px 0 0 0;
+}
+
+.inner {
+
+}
+
+/*-- /Section 12 --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
