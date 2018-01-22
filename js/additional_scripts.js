@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 	var timerScroll;
 
-	var mainNav = $('#fullpage').fullpage({
+	var mainNav = $('.content').fullpage({
 		menu: '#menu',
 		css3: true,
 		fitToSectionDelay: 1000,
@@ -17,17 +17,12 @@ $(document).ready(function() {
 
 		},
 		onLeave: function(index, nextIndex, direction){
-			var leavingSection = $(this);
+			// var leavingSection = $(this);
 
 			clearTimeout(timerScroll);
 
-			// if(index == index){
-				$(".header-site").addClass("scrolling");
-    			$(".footer").addClass("scrolling");
-			// } else if(index != index){
-			// 	$(".header-site").removeClass("scrolling");
-   //  			$(".footer").removeClass("scrolling");
-			// }
+			$(".header-site").addClass("scrolling");
+			$(".footer").addClass("scrolling");
 
 			timerScroll = setTimeout(function() {
 
@@ -37,6 +32,8 @@ $(document).ready(function() {
 			}, 800);
 		}
 	});
+
+	// $('.contentshow').contentshow();
 
 });
 

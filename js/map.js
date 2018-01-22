@@ -8,8 +8,7 @@ if( document.getElementsByClassName("map_wrapp")[0] ) {
 	function initMap() {
 
 		map = new google.maps.Map(document.getElementById('map'), {
-			center: {lat: 55.680000, lng: 37.5170273},
-			// 55.677679,37.5414273
+			center: {lat: 55.861083, lng: 37.535082},
 			scrollwheel: false,
 			scaleControl: false,
 			zoom: 14
@@ -19,7 +18,7 @@ if( document.getElementsByClassName("map_wrapp")[0] ) {
 			map: map,
 			draggable: false,
 			animation: google.maps.Animation.DROP,
-			position: {lat: 55.677679, lng: 37.5414273},
+			position: {lat: 55.858883, lng: 37.562282},
 			map: map,
 			icon: image,
 			title: 'Интернет маркетинг'

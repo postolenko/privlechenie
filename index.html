@@ -20,6 +20,7 @@
 	<script type="text/javascript" src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
 	<script type="text/javascript" src="vendors/js/smoothscroll.js"></script>
 	<script type="text/javascript" src="vendors/js/jquery.fullpage.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 	<script type="text/javascript" src="vendors/js/wow.min.js"></script>
 	<script>new WOW().init();</script>
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">
@@ -30,6 +31,52 @@
 </head>
 
 <body>
+
+	<!-- Callback Popup -->
+
+<!-- 	<div class="callback-wrapp active">
+		<div class="callback_bg"></div>
+		<div class="callback_popup">
+			<button type="button" class="close-popup">
+				<span></span>
+				<span></span>
+			</button>
+			<div class="inner_wrapp">
+				<div class="row center-block">
+					<h2>Готовы увеличить продажи?</h2>
+					<p class="p-2">Кол-во мест ограничено</p>
+					<p class="p-3">в январе 2018 года - 3 свободных места</p>
+
+					<div class="form_2_wrapp">
+						<form>
+							<div class="inputs_wrapp clearfix">
+								<div class="input_2_block">
+									<input type="text" placeholder="Имя" />
+								</div>
+								<div class="input_2_block">
+									<input type="text" placeholder="Направление бизнеса" />
+								</div>
+								<div class="input_2_block">
+									<input type="tel" placeholder="Телефон" />
+								</div>
+								<div class="input_2_block">
+									<input type="email" placeholder="E-mail" />
+								</div>
+							</div>
+							<div class="submit-btn_wrapp">
+								<button type="submit" class="red-pill">Отправить заявку</button>
+							</div>
+							<p class="descript-p">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных</p>
+						</form>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+
+	</div> -->
+
+	<!-- /Callback Popup -->
 
 	<div class="wrapper">
 
@@ -58,53 +105,6 @@
 								
 	</header>
 
-<!-- 	<nav class="navbar">
-
-	  <ul class="navbar-nav">
-	    <li class="nav-item">
-	      <a class="nav-link" data-section href="#!section-1"></a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" data-section href="#!section-2"></a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" data-section href="#!section-3"></a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" data-section href="#!section-4"></a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" data-section href="#!section-5"></a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" data-section href="#!section-6"></a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" data-section href="#!section-7"></a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" data-section href="#!section-8"></a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" data-section href="#!section-9"></a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" data-section href="#!section-10"></a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" data-section href="#!section-11"></a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" data-section href="#!section-12"></a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" data-section href="#!section-13"></a>
-	    </li>
-	  </ul>
-	  
-	</nav>
- -->
-
 	 <ul class="navbar" id="menu">
 		<li class="nav-item" data-menuanchor="section-1"><a class="nav-link" href="#section-1"></a></li>
 		<li class="nav-item" data-menuanchor="section-2"><a class="nav-link" href="#section-2"></a></li>
@@ -124,51 +124,52 @@
 	<!-- /Header -->
 
 		<!-- Content -->
-			<div class="content" id="fullpage">
+			<div class="content">
 
 				<!-- Section 1 -->
 
-				<div class="section section_1" id="section-1" data-anchor="section-1">
-					<div class="inner_wrapp">
-						<div class="row center-block">
-							<h2>Привлечение новых клиентов из интернета<br /> в сфере производства и услуг</h2>
-							<div class="two-cols-templ clearfix">
-								<div class="col-1 left">
-									<h3>В сфере торговли, производства услуг</h3>
-									<ul>
-										<li>Вы платите только % от продаж и рекламный бюджет</li>
-										<li>Над вашим проектом работает специалист, влюбленный
-										в свою работу</li>
-										<li>Беру не более 3-х проектов в месяц</li>
-									</ul>
-								</div>
-								<div class="col-2 right">
-									<div class="form_wrapp form_abs">
-										<div class="inner-form_wrapp">
-											<div class="inner-form">
-												<h3>Нет времени читать дальше?</h3>
-												<p>Отправьте заявку и получите комментарии эксперта</p>
-												<div class="form">
-													<form>
-														<div class="inputs_wrapp clearfix">
-															<div class="input-block">
-																<input type="text" placeholder="Имя" />
+					<div class="section section_1" id="section-1" data-anchor="section-1">
+						<div class="inner_wrapp">
+							<div class="row center-block">
+								<h2>Привлечение новых клиентов из интернета<br /> в сфере производства и услуг</h2>
+								<div class="two-cols-templ clearfix">
+									<div class="col-1 left">
+										<h3>В сфере торговли, производства услуг</h3>
+										<ul>
+											<li>Вы платите только % от продаж и рекламный бюджет</li>
+											<li>Над вашим проектом работает специалист, влюбленный
+											в свою работу</li>
+											<li>Беру не более 3-х проектов в месяц</li>
+										</ul>
+									</div>
+									<div class="col-2 right">
+										<div class="form_wrapp form_abs">
+											<div class="inner-form_wrapp">
+												<div class="inner-form">
+													<h3>Нет времени читать дальше?</h3>
+													<p>Отправьте заявку и получите комментарии эксперта</p>
+													<div class="form">
+														<form>
+															<div class="inputs_wrapp clearfix">
+																<div class="input-block">
+																	<input type="text" placeholder="Имя" />
+																</div>
+																<div class="input-block">
+																	<input type="text" placeholder="Направление бизнеса" />
+																</div>
+																<div class="input-block">
+																	<input type="tel" placeholder="Телефон" />
+																</div>
+																<div class="input-block">
+																	<input type="email" placeholder="E-mail" />
+																</div>
 															</div>
-															<div class="input-block">
-																<input type="text" placeholder="Направление бизнеса" />
+															<div class="submit-btn_wrapp">
+																<button type="submit" class="red-pill">Отправить заявку</button>
 															</div>
-															<div class="input-block">
-																<input type="tel" placeholder="Телефон" />
-															</div>
-															<div class="input-block">
-																<input type="email" placeholder="E-mail" />
-															</div>
-														</div>
-														<div class="submit-btn_wrapp">
-															<button type="submit" class="red-pill">Отправить заявку</button>
-														</div>
-														<p class="grey-p">Нажимая на кнопку, вы даете согласие на обработку своих<br /> персональных данных</p>
-													</form>
+															<p class="grey-p">Нажимая на кнопку, вы даете согласие на обработку своих<br /> персональных данных</p>
+														</form>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -177,600 +178,599 @@
 							</div>
 						</div>
 					</div>
-				</div>
 
-				<!-- /Section 1 -->
+					<!-- /Section 1 -->
 
-				<!-- Section 2 -->
+					<!-- Section 2 -->
 
-				<div class="section section_2" id="section-2"  data-anchor="section-2">
-					<div class="inner_wrapp">
-						<img class="boss_photo" src="img/boss.png" alt="" />
-						<div class="row center-block">
-							<h2>Привлечение новых клиентов<br /> - это легко!</h2>
+					<div class="section section_2" id="section-2"  data-anchor="section-2">
+						<div class="inner_wrapp">
+							<img class="boss_photo" src="img/boss.png" alt="" />
+							<div class="row center-block">
+								<h2>Привлечение новых клиентов<br /> - это легко!</h2>
 
-							<div class="advantages_article">								
-								<p>Здравствуйте!</p>
-								<p>Меня зовут Бортников Егор, мне 36 лет. Я интернет-маркетолог из Москвы.</p> 
-								<p>Я занимаюсь привлечением клиентов. В качестве оплаты беру % от продаж и рекламный бюджет.</p> 
-								<p>Ищу предпринимателей, у которых хороший продукт, но они сами не хотят или не имеют возможности заниматься продвижением в Интернете.</p>
-								<div class="thumbnails_wrapp advantages_thumbnails_wrapp">
-									<div class="advantages_thumbnails offset-ziro">
-										<div class="thumb_adv">
-											<p>Техническое высшее<br /> образование</p>
-										</div>
-										<div class="thumb_adv">
-											<p>с 1997 года<br /> в Интернете</p>
-										</div>
-										<div class="thumb_adv">
-											<p>Меня рекомендуют<br /> друзьям</p>
-										</div>
-										<div class="thumb_adv">
-											<p>100 + довольных<br /> клиентов</p>
+								<div class="advantages_article">								
+									<p>Здравствуйте!</p>
+									<p>Меня зовут Бортников Егор, мне 36 лет. Я интернет-маркетолог из Москвы.</p> 
+									<p>Я занимаюсь привлечением клиентов. В качестве оплаты беру % от продаж и рекламный бюджет.</p> 
+									<p>Ищу предпринимателей, у которых хороший продукт, но они сами не хотят или не имеют возможности заниматься продвижением в Интернете.</p>
+									<div class="thumbnails_wrapp advantages_thumbnails_wrapp">
+										<div class="advantages_thumbnails offset-ziro">
+											<div class="thumb_adv">
+												<p>Техническое высшее<br /> образование</p>
+											</div>
+											<div class="thumb_adv">
+												<p>с 1997 года<br /> в Интернете</p>
+											</div>
+											<div class="thumb_adv">
+												<p>Меня рекомендуют<br /> друзьям</p>
+											</div>
+											<div class="thumb_adv">
+												<p>100 + довольных<br /> клиентов</p>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
 
-				<!-- /Section 2 -->
+					<!-- /Section 2 -->
 
-				<!-- Section 3 -->
+					<!-- Section 3 -->
 
-				<div class="section section_3" id="section-3"  data-anchor="section-3">
-					<div class="inner_wrapp">
-						<div class="row center-block">
-							<h2>«Три кита»<br /> моего успеха</h2>
-							<div class="thumbnails_2 offset-ziro">
-								<div class="thumb_2 thumb_2_1">
-									<div class="num">
-										<img src="img/num_01.png" alt="" />
+					<div class="section section_3" id="section-3"  data-anchor="section-3">
+						<div class="inner_wrapp">
+							<div class="row center-block">
+								<h2>«Три кита»<br /> моего успеха</h2>
+								<div class="thumbnails_2 offset-ziro">
+									<div class="thumb_2 thumb_2_1">
+										<div class="num">
+											<img src="img/num_01.png" alt="" />
+										</div>
+										<div class="icon-box">
+											<img src="img/icon_3.png" alt="" />
+										</div>
+										<h3>Продающие сайты</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
 									</div>
-									<div class="icon-box">
-										<img src="img/icon_3.png" alt="" />
+									<div class="thumb_2 thumb_2_2">
+										<div class="num">
+											<img src="img/num_02.png" alt="" />
+										</div>
+										<div class="icon-box">
+											<img src="img/icon_2.png" alt="" />
+										</div>
+										<h3>Контекстная реклама</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
 									</div>
-									<h3>Продающие сайты</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
-								</div>
-								<div class="thumb_2 thumb_2_2">
-									<div class="num">
-										<img src="img/num_02.png" alt="" />
+									<div class="thumb_2 thumb_2_3">
+										<div class="num">
+											<img src="img/num_03.png" alt="" />
+										</div>
+										<div class="icon-box">
+											<img src="img/icon_1.png" alt="" />
+										</div>
+										<h3>Таргетированная реклама</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
 									</div>
-									<div class="icon-box">
-										<img src="img/icon_2.png" alt="" />
-									</div>
-									<h3>Контекстная реклама</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
-								</div>
-								<div class="thumb_2 thumb_2_3">
-									<div class="num">
-										<img src="img/num_03.png" alt="" />
-									</div>
-									<div class="icon-box">
-										<img src="img/icon_1.png" alt="" />
-									</div>
-									<h3>Таргетированная реклама</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
 
-				<!-- /Section 3 -->
+					<!-- /Section 3 -->
 
-				<!-- Section 4 -->
+					<!-- Section 4 -->
 
-				<div class="section section_4" id="section-4"  data-anchor="section-4">
-					<div class="inner_wrapp">
-						<div class="row center-block">
-							<h2>Готовы увеличить продажи?</h2>
-							<p class="p-2">Кол-во мест ограничено</p>
-							<p class="p-3">в январе 2018 года - 3 свободных места</p>
+					<div class="section section_4" id="section-4"  data-anchor="section-4">
+						<div class="inner_wrapp">
+							<div class="row center-block">
+								<h2>Готовы увеличить продажи?</h2>
+								<p class="p-2">Кол-во мест ограничено</p>
+								<p class="p-3">в январе 2018 года - 3 свободных места</p>
 
-							<div class="form_2_wrapp">
-								<form>
-									<div class="inputs_wrapp clearfix">
-										<div class="input_2_block">
-											<input type="text" placeholder="Имя" />
+								<div class="form_2_wrapp">
+									<form>
+										<div class="inputs_wrapp clearfix">
+											<div class="input_2_block">
+												<input type="text" placeholder="Имя" />
+											</div>
+											<div class="input_2_block">
+												<input type="text" placeholder="Направление бизнеса" />
+											</div>
+											<div class="input_2_block">
+												<input type="tel" placeholder="Телефон" />
+											</div>
+											<div class="input_2_block">
+												<input type="email" placeholder="E-mail" />
+											</div>
 										</div>
-										<div class="input_2_block">
-											<input type="text" placeholder="Направление бизнеса" />
+										<div class="submit-btn_wrapp">
+											<button type="submit" class="red-pill">Отправить заявку</button>
 										</div>
-										<div class="input_2_block">
-											<input type="tel" placeholder="Телефон" />
-										</div>
-										<div class="input_2_block">
-											<input type="email" placeholder="E-mail" />
-										</div>
-									</div>
-									<div class="submit-btn_wrapp">
-										<button type="submit" class="red-pill">Отправить заявку</button>
-									</div>
-									<p class="descript-p">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных</p>
-								</form>
+										<p class="descript-p">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных</p>
+									</form>
+								</div>
+								
 							</div>
-							
 						</div>
 					</div>
-				</div>
 
-				<!-- /Section 4 -->
+					<!-- /Section 4 -->
 
-				<!-- Section 5 -->
+					<!-- Section 5 -->
 
-				<div class="section section_5" id="section-5"  data-anchor="section-5">
-					<div class="inner_wrapp">
-						<div class="row center-block">
-							<h2>Вы заработаете со мной,<br /> если:</h2>
+					<div class="section section_5" id="section-5"  data-anchor="section-5">
+						<div class="inner_wrapp">
+							<div class="row center-block">
+								<h2>Вы заработаете со мной,<br /> если:</h2>
 
-							<div class="article_2">
-								<ul>
-									<li>Вы адекватный и позитивный человек</li>
-									<li>Ведете честный бизнес, не противоречащий законодательству РФ.</li>
-									<li>Ваш текущий доход > 200 т.руб./мес.</li>
-									<li>Сейчас клиентов мало. Они приходят, благодаря личным знакомствам и сарафанному радио.</li>
-									<li>Вам некогда заниматься рутиной интернет рекламы и разбираться во всех тонкостях, сливая бюджеты.</li>
-									<li>Вы давно искали помощника - эксперта, который может вывести бизнес на новый уровень.</li>
-									<li>У вас есть работающий отдел продаж.</li>
-								</ul>
-							</div>
-
-							<div class="callbak_box">
-								<div class="inner">
-									<h3>Оставьте заявку,</h3>
-									<p>я обязательно отвечу</p>
-									<button type="submit" class="red-pill">Отправить заявку</button>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-				</div>
-
-				<!-- /Section 5 -->
-
-				<!-- Section 6 -->
-
-				<div class="section section_6" id="section-6"  data-anchor="section-6">
-					<div class="inner_wrapp">
-						<div class="row center-block">
-							<h2>С кем я не работаю</h2>
-							<div class="article_3 clearfix">
-								<div class="col-1 left">
-									<img src="img/not_work.png" alt="" />
-								</div>
-								<div class="col-2 right">
-									<ul class="num-mark">
-										<li>Я уже оказываю услуги вашему конкуренту.</li>
-										<li>У вас нет отдела продаж или персонал не умеет продавать.</li>
-										<li>Ваш бизнес нарушает закон Российской Федерации.</li>
-										<li>У вас молодой бизнес, возраст менее 3 лет.</li>
-										<li>Вы хотите контролировать и влезать в мою работу.</li>
+								<div class="article_2">
+									<ul>
+										<li>Вы адекватный и позитивный человек</li>
+										<li>Ведете честный бизнес, не противоречащий законодательству РФ.</li>
+										<li>Ваш текущий доход > 200 т.руб./мес.</li>
+										<li>Сейчас клиентов мало. Они приходят, благодаря личным знакомствам и сарафанному радио.</li>
+										<li>Вам некогда заниматься рутиной интернет рекламы и разбираться во всех тонкостях, сливая бюджеты.</li>
+										<li>Вы давно искали помощника - эксперта, который может вывести бизнес на новый уровень.</li>
+										<li>У вас есть работающий отдел продаж.</li>
 									</ul>
 								</div>
-							</div>							
-						</div>
-					</div>
-				</div>
 
-				<!-- /Section 6 -->
-
-				<!-- Section 7 -->
-
-				<div class="section section_7" id="section-7"  data-anchor="section-7">
-					<div class="inner_wrapp">
-						<div class="row center-block">
-							<h2>5 причин почему работать<br /> со мной выгодно</h2>
-							<div class="thumbnails_3 offset-ziro">
-								<div class="thumb_3">
+								<div class="callbak_box">
 									<div class="inner">
-										<div class="icon-box">
-											<img src="img/ten.png" alt="" />
-										</div>
-										<p>10 летний опыт продаж<br /> через Интернет</p>
+										<h3>Оставьте заявку,</h3>
+										<p>я обязательно отвечу</p>
+										<button type="submit" class="red-pill">Отправить заявку</button>
 									</div>
 								</div>
-								<div class="thumb_3 thumb_3_2">
-									<div class="inner">
-										<div class="icon-box">
-											<img src="img/good_icon.png" alt="" />
-										</div>
-										<p>Я заинтересован зарабатывать с вами</p>
-									</div>
-								</div>
-								<div class="thumb_3 thumb_3_3">
-									<div class="inner">
-										<div class="icon-box">
-											<img src="img/important_icon.png" alt="" />
-										</div>
-										<p>Все по-честному</p>
-									</div>
-								</div>
-								<div class="thumb_3 thumb_3_4">
-									<div class="inner">
-										<div class="icon-box">
-											<img src="img/i_love_you_icon.png" alt="" />
-										</div>
-										<p>Я обожаю свою работу</p>
-									</div>
-								</div>
-								<div class="thumb_3 thumb_3_5">
-									<div class="inner">
-										<div class="icon-box">
-											<img src="img/buble_icon.png" alt="" />
-										</div>
-										<p>Меня рекомендуют</p>
-									</div>
-								</div>
+								
 							</div>
 						</div>
 					</div>
-				</div>
 
-				<!-- /Section 7 -->
+					<!-- /Section 5 -->
 
-				<!-- Section 8 -->
+					<!-- Section 6 -->
 
-				<div class="section section_8" id="section-8"  data-anchor="section-8">
-					<div class="inner_wrapp">
-						<div class="row center-block">
-							<h2>Почему это выгодно для вас?</h2>
-							<div class="article_4">
-								<div class="thumbnails_4 offset-ziro">
-									<div class="thumb_4 thumb_4_1">
-										<div class="icon-box">
-											<img src="img/icon_4.png" alt="" />
-										</div>
-										<h3>ЭКОНОМИТЕ ВРЕМЯ</h3>
-										<div class="desc">
-											<p>Lorem ipsum dolor sit amet, conur adipiscing elit. Nulla quam velitse, vulputate eu pharetra nec, mattisa ac neque. Duis vulpute commodo lectus, ac blandit elit tincidunt idу. Sed rhoncus, tortor sed eleifendin elit, lacinia ipsum quam dui.</p>
-										</div>
+					<div class="section section_6" id="section-6"  data-anchor="section-6">
+						<div class="inner_wrapp">
+							<div class="row center-block">
+								<h2>С кем я не работаю</h2>
+								<div class="article_3 clearfix">
+									<div class="col-1 left">
+										<img src="img/not_work.png" alt="" />
 									</div>
-									<div class="thumb_4 thumb_4_2">
-										<div class="icon-box">
-											<img src="img/icon_5.png" alt="" />
-										</div>
-										<h3>ЭКОНОМИТЕ РЕСУРСЫ</h3>
-										<div class="desc">
-											<p>Lorem ipsum dolor sit amet, conur adipiscing elit. Nulla quam velitse, vulputate eu pharetra nec, mattisa ac neque. Duis vulpute commodo lectus, ac blandit elit tincidunt idу. Sed rhoncus, tortor sed eleifendin elit, lacinia ipsum quam dui.</p>
-										</div>
-									</div>
-									<div class="thumb_4 thumb_4_3">
-										<div class="icon-box">
-											<img src="img/icon_6.png" alt="" />
-										</div>
-										<h3>УВЕЛИЧИВАЕТЕ ПРИБЫЛЬ</h3>
-										<div class="desc">
-											<p>Lorem ipsum dolor sit amet, conur adipiscing elit. Nulla quam velitse, vulputate eu pharetra nec, mattisa ac neque. Duis vulpute commodo lectus, ac blandit elit tincidunt idу. Sed rhoncus, tortor sed eleifendin elit, lacinia ipsum quam dui.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="callbak_box">
-								<div class="inner">
-									<h3>Оставьте заявку,</h3>
-									<p>я обязательно отвечу</p>
-									<button type="submit" class="red-pill">Отправить заявку</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- /Section 8 -->
-
-				<!-- Section 9 -->
-
-				<div class="section section_9" id="section-9"  data-anchor="section-9">
-					<div class="inner_wrapp">
-						<div class="row center-block">
-							<h2>Результат моей работы<br /> - увеличение продаж</h2>
-							<div class="thumbnails_5 offset-ziro">
-								<div class="thumb_5">
-									<div class="title">
-										<img src="img/before.png" alt="" />
-									</div>
-									<div class="img-box">
-										<img src="img/before_photo.jpg" alt="" />
-									</div>
-								</div>
-								<div class="thumb_5">
-									<div class="title">
-										<<img src="img/after.png" alt="" />
-									</div>
-									<div class="img-box">
-										<img src="img/after_photo.jpg" alt="" />
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- /Section 9 -->
-
-				<!-- Section 10 -->
-
-				<div class="section section_10" id="section-10"  data-anchor="section-10">
-					<div class="inner_wrapp">
-						<div class="row center-block">
-							<h2>Понятная схема<br /> работы и оплаты</h2>
-							<div class="thumbnails_6 offset-ziro">
-								<div class="thumb_6 thumb_6_1">
-									<div class="thumb-col-1">
-										<div class="icon-box">
-											<img src="img/icon_6_1.png" alt="" />
-										</div>
-									</div>
-									<div class="thumb-col-2">
-										<p class="num">01.</p>
-										<p>Заявка</p>
-									</div>
-								</div>
-								<div class="thumb_6 thumb_6_2">
-									<div class="thumb-col-1">
-										<div class="icon-box">
-											<img src="img/icon_6_2.png" alt="" />
-										</div>
-									</div>
-									<div class="thumb-col-2">
-										<p class="num">02.</p>
-										<p>Знакомство</p>
-									</div>
-								</div>
-								<div class="thumb_6 thumb_6_3">
-									<div class="thumb-col-1">
-										<div class="icon-box">
-											<img src="img/icon_6_3.png" alt="" />
-										</div>
-									</div>
-									<div class="thumb-col-2">
-										<p class="num">03.</p>
-										<p>Анализ</p>
-									</div>
-								</div>
-								<div class="thumb_6 thumb_6_4">
-									<div class="thumb-col-1">
-										<div class="icon-box">
-											<img src="img/icon_6_4.png" alt="" />
-										</div>
-									</div>
-									<div class="thumb-col-2">
-										<p class="num">04.</p>
-										<p>Договор</p>
-									</div>
-								</div>
-								<div class="thumb_6 thumb_6_5">
-									<div class="thumb-col-1">
-										<div class="icon-box">
-											<img src="img/icon_6_5.png" alt="" />
-										</div>
-									</div>
-									<div class="thumb-col-2">
-										<p class="num">05.</p>
-										<p>Предоплата</p>
-									</div>
-								</div>
-								<div class="thumb_6 thumb_6_6">
-									<div class="thumb-col-1">
-										<div class="icon-box">
-											<img src="img/icon_6_6.png" alt="" />
-										</div>
-									</div>
-									<div class="thumb-col-2">
-										<p class="num">06.</p>
-										<p>Подготовка</p>
-									</div>
-								</div>
-								<div class="thumb_6 thumb_6_7">
-									<div class="thumb-col-1">
-										<div class="icon-box">
-											<img src="img/icon_6_7.png" alt="" />
-										</div>
-									</div>
-									<div class="thumb-col-2">
-										<p class="num">07.</p>
-										<p>Работа</p>
-									</div>
-								</div>
-								<div class="thumb_6 thumb_6_8">
-									<div class="thumb-col-1">
-										<div class="icon-box">
-											<img src="img/icon_6_8.png" alt="" />
-										</div>
-									</div>
-									<div class="thumb-col-2">
-										<p class="num">08.</p>
-										<p>Результат</p>
-									</div>
-								</div>
-							</div>
-							<div class="callbak_box">
-								<div class="inner">
-									<h3>Оставьте заявку,</h3>
-									<p>я обязательно отвечу</p>
-									<button type="submit" class="red-pill">Отправить заявку</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- /Section 10 -->
-
-				<!-- Section 11 -->
-
-				<div class="section section_11" id="section-11"  data-anchor="section-11">
-					<div class="inner_wrapp">
-						<div class="row center-block">
-							<h2>Моя команда</h2>
-							<div class="thumbnails_wrapp">
-								<div class="thumbnails_7 offset-ziro">
-									<div class="thumb_7">
-										<div class="img-box">
-											<img src="img/photo_01.jpg" alt="" />
-										</div>
-										<p class="p-1">Егор Бортников</p>
-										<p>Специалист по SMM<br /> и контенту</p>
-										<ul>
-											<li><a href="#"><i class="fa fa-vk"></i></a></li>
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<div class="col-2 right">
+										<ul class="num-mark">
+											<li>Я уже оказываю услуги вашему конкуренту.</li>
+											<li>У вас нет отдела продаж или персонал не умеет продавать.</li>
+											<li>Ваш бизнес нарушает закон Российской Федерации.</li>
+											<li>У вас молодой бизнес, возраст менее 3 лет.</li>
+											<li>Вы хотите контролировать и влезать в мою работу.</li>
 										</ul>
 									</div>
-									<div class="thumb_7">
-										<div class="img-box">
-											<img src="img/photo_02.jpg" alt="" />
-										</div>
-										<p class="p-1">Светлана Мартенсон</p>
-										<p>Дизайнер<br /> (компьютерная графика)</p>
-										<ul>
-											<li><a href="#"><i class="fa fa-vk"></i></a></li>
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-										</ul>
-									</div>
-									<div class="thumb_7">
-										<div class="img-box">
-											<img src="img/photo_03.jpg" alt="" />
-										</div>
-										<p class="p-1">Алексей Бондарев</p>
-										<p>Специалист по SMM<br /> и контенту</p>
-										<ul>
-											<li><a href="#"><i class="fa fa-vk"></i></a></li>
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-										</ul>
-									</div>
-									<div class="thumb_7">
-										<div class="img-box">
-											<img src="img/photo_04.jpg" alt="" />
-										</div>
-										<p class="p-1">Денис Постоленко</p>
-										<p>Специалист по SMM<br /> и контенту</p>
-										<ul>
-											<li><a href="#"><i class="fa fa-vk"></i></a></li>
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-										</ul>
-									</div>
-									<div class="thumb_7">
-										<div class="img-box">
-											<img src="img/photo_01.jpg" alt="" />
-										</div>
-										<p class="p-1">Егор Бортников</p>
-										<p>Специалист по SMM<br /> и контенту</p>
-										<ul>
-											<li><a href="#"><i class="fa fa-vk"></i></a></li>
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="descript-box">
-								<p>Работая со мной, Вы можете лично познакомиться<br /> 
-								и поработать с каждым профессионалом своего <br /> 
-								дела из нашей команды </p>
+								</div>							
 							</div>
 						</div>
 					</div>
-				</div>
 
-				<!-- /Section 11 -->
+					<!-- /Section 6 -->
 
-				<!-- Section 12 -->
+					<!-- Section 7 -->
 
-				<div class="section section_12" id="section-12"  data-anchor="section-12">
-					<div class="inner_wrapp">
-						<div class="row center-block">
-							<h2>Мне доверяют</h2>
-							<div class="thumbnails_wrapp">
-								<div class="thumbnails_8 offset-ziro">
-									<div class="thumb_8 thumb_8_1">
-										<div class="img-box">
-											<img src="img/kit_shop.png" alt="" />
+					<div class="section section_7" id="section-7"  data-anchor="section-7">
+						<div class="inner_wrapp">
+							<div class="row center-block">
+								<h2>5 причин почему работать<br /> со мной выгодно</h2>
+								<div class="thumbnails_3 offset-ziro">
+									<div class="thumb_3">
+										<div class="inner">
+											<div class="icon-box">
+												<img src="img/ten.png" alt="" />
+											</div>
+											<p>10 летний опыт продаж<br /> через Интернет</p>
 										</div>
-										<p>продажа онлайн  касс и торгового оборудования</p>
 									</div>
-									<div class="thumb_8 thumb_8_2">
-										<div class="img-box">
-											<img src="img/mi.png" alt="" />
+									<div class="thumb_3 thumb_3_2">
+										<div class="inner">
+											<div class="icon-box">
+												<img src="img/good_icon.png" alt="" />
+											</div>
+											<p>Я заинтересован зарабатывать с вами</p>
 										</div>
-										<p>организатор детских праздников</p>
 									</div>
-									<div class="thumb_8 thumb_8_3">
-										<div class="img-box">
-											<img src="img/npg.png" alt="" />
+									<div class="thumb_3 thumb_3_3">
+										<div class="inner">
+											<div class="icon-box">
+												<img src="img/important_icon.png" alt="" />
+											</div>
+											<p>Все по-честному</p>
 										</div>
-										<p>поставщик строительных материалов на объекты любой сложности</p>
 									</div>
-									<div class="thumb_8 nobg">
-										<a class="thumb_8_link" href="#">Стань следующим, чей бизнес будет<br /> на конкурентном рынке</a>
-									</div>
-									<div class="thumb_8 thumb_8_4">
-										<div class="img-box">
-											<img src="img/fujifilm.png" alt="" />
+									<div class="thumb_3 thumb_3_4">
+										<div class="inner">
+											<div class="icon-box">
+												<img src="img/i_love_you_icon.png" alt="" />
+											</div>
+											<p>Я обожаю свою работу</p>
 										</div>
-										<p>представительство Fujifilm в России</p>
 									</div>
-									<div class="thumb_8 thumb_8_5">
-										<div class="img-box">
-											<img src="img/matrix_racing.png" alt="" />
+									<div class="thumb_3 thumb_3_5">
+										<div class="inner">
+											<div class="icon-box">
+												<img src="img/buble_icon.png" alt="" />
+											</div>
+											<p>Меня рекомендуют</p>
 										</div>
-										<p>спортивная команда шоссейно-кольцевых мотогонок в России.</p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
 
-				<!-- /Section 12 -->
+					<!-- /Section 7 -->
 
-				<!-- Section 13 -->
+					<!-- Section 8 -->
 
-				<div class="section section_13" id="section-13"  data-anchor="section-13">
-					<div class="contacts_wrapp inner_wrapp map_wrapp">
-						<div id="map"></div>
-						<div class="row">
-							<div class="contacts-block">
-								<h2>Контакты</h2>
-								<div class="contacts-field">
-									<h3>Адрес:</h3>
-									<p>г. Москва ул. Бескудниковский б-р, д.6, корп. 4</p>
+					<div class="section section_8" id="section-8"  data-anchor="section-8">
+						<div class="inner_wrapp">
+							<div class="row center-block">
+								<h2>Почему это выгодно для вас?</h2>
+								<div class="article_4">
+									<div class="thumbnails_4 offset-ziro">
+										<div class="thumb_4 thumb_4_1">
+											<div class="icon-box">
+												<img src="img/icon_4.png" alt="" />
+											</div>
+											<h3>ЭКОНОМИТЕ ВРЕМЯ</h3>
+											<div class="desc">
+												<p>Lorem ipsum dolor sit amet, conur adipiscing elit. Nulla quam velitse, vulputate eu pharetra nec, mattisa ac neque. Duis vulpute commodo lectus, ac blandit elit tincidunt idу. Sed rhoncus, tortor sed eleifendin elit, lacinia ipsum quam dui.</p>
+											</div>
+										</div>
+										<div class="thumb_4 thumb_4_2">
+											<div class="icon-box">
+												<img src="img/icon_5.png" alt="" />
+											</div>
+											<h3>ЭКОНОМИТЕ РЕСУРСЫ</h3>
+											<div class="desc">
+												<p>Lorem ipsum dolor sit amet, conur adipiscing elit. Nulla quam velitse, vulputate eu pharetra nec, mattisa ac neque. Duis vulpute commodo lectus, ac blandit elit tincidunt idу. Sed rhoncus, tortor sed eleifendin elit, lacinia ipsum quam dui.</p>
+											</div>
+										</div>
+										<div class="thumb_4 thumb_4_3">
+											<div class="icon-box">
+												<img src="img/icon_6.png" alt="" />
+											</div>
+											<h3>УВЕЛИЧИВАЕТЕ ПРИБЫЛЬ</h3>
+											<div class="desc">
+												<p>Lorem ipsum dolor sit amet, conur adipiscing elit. Nulla quam velitse, vulputate eu pharetra nec, mattisa ac neque. Duis vulpute commodo lectus, ac blandit elit tincidunt idу. Sed rhoncus, tortor sed eleifendin elit, lacinia ipsum quam dui.</p>
+											</div>
+										</div>
+									</div>
 								</div>
-								<div class="contacts-field">
-									<h3>Телефон:</h3>
-									<p><a href="tel:+78008080884">+7 (800) 808-08-84</a></p>
+
+								<div class="callbak_box">
+									<div class="inner">
+										<h3>Оставьте заявку,</h3>
+										<p>я обязательно отвечу</p>
+										<button type="submit" class="red-pill">Отправить заявку</button>
+									</div>
 								</div>
-								<div class="contacts-field">
-									<h3>E-mail:</h3>
-									<p><a href="email:+78008080884">egormarket@mail.ru</a></p>
-								</div>
-								<div class="contacts-field">
-									<h3>Рабочее время:</h3>
-									<p>пн. - пт. с 700 до 1700 <span class="small">(время московское)</span></p>
-								</div>
-								<div class="contacts-field">
-									<p>ИНН 771374077702</p>
-									<p>ОГРНИП 315774600241133</p>
-								</div>
-								<ul class="soc-links">
-									<li><a href="#"><img src="img/vk.png" alt="" /></a></li>
-									<li><a href="#"><img src="img/facebook.png" alt="" /></a></li>
-									<li><a href="#"><img src="img/instagram.png" alt="" /></a></li>
-								</ul>
 							</div>
 						</div>
 					</div>
-				</div>
 
-				<!-- /Section 13 -->
+					<!-- /Section 8 -->
+
+					<!-- Section 9 -->
+
+					<div class="section section_9" id="section-9"  data-anchor="section-9">
+						<div class="inner_wrapp">
+							<div class="row center-block">
+								<h2>Результат моей работы<br /> - увеличение продаж</h2>
+								<div class="thumbnails_5 offset-ziro">
+									<div class="thumb_5">
+										<div class="title">
+											<img src="img/before.png" alt="" />
+										</div>
+										<div class="img-box">
+											<img src="img/before_photo.jpg" alt="" />
+										</div>
+									</div>
+									<div class="thumb_5">
+										<div class="title">
+											<<img src="img/after.png" alt="" />
+										</div>
+										<div class="img-box">
+											<img src="img/after_photo.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- /Section 9 -->
+
+					<!-- Section 10 -->
+
+					<div class="section section_10" id="section-10"  data-anchor="section-10">
+						<div class="inner_wrapp">
+							<div class="row center-block">
+								<h2>Понятная схема<br /> работы и оплаты</h2>
+								<div class="thumbnails_6 offset-ziro">
+									<div class="thumb_6 thumb_6_1">
+										<div class="thumb-col-1">
+											<div class="icon-box">
+												<img src="img/icon_6_1.png" alt="" />
+											</div>
+										</div>
+										<div class="thumb-col-2">
+											<p class="num">01.</p>
+											<p>Заявка</p>
+										</div>
+									</div>
+									<div class="thumb_6 thumb_6_2">
+										<div class="thumb-col-1">
+											<div class="icon-box">
+												<img src="img/icon_6_2.png" alt="" />
+											</div>
+										</div>
+										<div class="thumb-col-2">
+											<p class="num">02.</p>
+											<p>Знакомство</p>
+										</div>
+									</div>
+									<div class="thumb_6 thumb_6_3">
+										<div class="thumb-col-1">
+											<div class="icon-box">
+												<img src="img/icon_6_3.png" alt="" />
+											</div>
+										</div>
+										<div class="thumb-col-2">
+											<p class="num">03.</p>
+											<p>Анализ</p>
+										</div>
+									</div>
+									<div class="thumb_6 thumb_6_4">
+										<div class="thumb-col-1">
+											<div class="icon-box">
+												<img src="img/icon_6_4.png" alt="" />
+											</div>
+										</div>
+										<div class="thumb-col-2">
+											<p class="num">04.</p>
+											<p>Договор</p>
+										</div>
+									</div>
+									<div class="thumb_6 thumb_6_5">
+										<div class="thumb-col-1">
+											<div class="icon-box">
+												<img src="img/icon_6_5.png" alt="" />
+											</div>
+										</div>
+										<div class="thumb-col-2">
+											<p class="num">05.</p>
+											<p>Предоплата</p>
+										</div>
+									</div>
+									<div class="thumb_6 thumb_6_6">
+										<div class="thumb-col-1">
+											<div class="icon-box">
+												<img src="img/icon_6_6.png" alt="" />
+											</div>
+										</div>
+										<div class="thumb-col-2">
+											<p class="num">06.</p>
+											<p>Подготовка</p>
+										</div>
+									</div>
+									<div class="thumb_6 thumb_6_7">
+										<div class="thumb-col-1">
+											<div class="icon-box">
+												<img src="img/icon_6_7.png" alt="" />
+											</div>
+										</div>
+										<div class="thumb-col-2">
+											<p class="num">07.</p>
+											<p>Работа</p>
+										</div>
+									</div>
+									<div class="thumb_6 thumb_6_8">
+										<div class="thumb-col-1">
+											<div class="icon-box">
+												<img src="img/icon_6_8.png" alt="" />
+											</div>
+										</div>
+										<div class="thumb-col-2">
+											<p class="num">08.</p>
+											<p>Результат</p>
+										</div>
+									</div>
+								</div>
+								<div class="callbak_box">
+									<div class="inner">
+										<h3>Оставьте заявку,</h3>
+										<p>я обязательно отвечу</p>
+										<button type="submit" class="red-pill">Отправить заявку</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- /Section 10 -->
+
+					<!-- Section 11 -->
+
+					<div class="section section_11" id="section-11"  data-anchor="section-11">
+						<div class="inner_wrapp">
+							<div class="row center-block">
+								<h2>Моя команда</h2>
+								<div class="thumbnails_wrapp">
+									<div class="thumbnails_7 offset-ziro">
+										<div class="thumb_7">
+											<div class="img-box">
+												<img src="img/photo_01.jpg" alt="" />
+											</div>
+											<p class="p-1">Егор Бортников</p>
+											<p>Специалист по SMM<br /> и контенту</p>
+											<ul>
+												<li><a href="#"><i class="fa fa-vk"></i></a></li>
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											</ul>
+										</div>
+										<div class="thumb_7">
+											<div class="img-box">
+												<img src="img/photo_02.jpg" alt="" />
+											</div>
+											<p class="p-1">Светлана Мартенсон</p>
+											<p>Дизайнер<br /> (компьютерная графика)</p>
+											<ul>
+												<li><a href="#"><i class="fa fa-vk"></i></a></li>
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											</ul>
+										</div>
+										<div class="thumb_7">
+											<div class="img-box">
+												<img src="img/photo_03.jpg" alt="" />
+											</div>
+											<p class="p-1">Алексей Бондарев</p>
+											<p>Специалист по SMM<br /> и контенту</p>
+											<ul>
+												<li><a href="#"><i class="fa fa-vk"></i></a></li>
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											</ul>
+										</div>
+										<div class="thumb_7">
+											<div class="img-box">
+												<img src="img/photo_04.jpg" alt="" />
+											</div>
+											<p class="p-1">Денис Постоленко</p>
+											<p>Специалист по SMM<br /> и контенту</p>
+											<ul>
+												<li><a href="#"><i class="fa fa-vk"></i></a></li>
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											</ul>
+										</div>
+										<div class="thumb_7">
+											<div class="img-box">
+												<img src="img/photo_01.jpg" alt="" />
+											</div>
+											<p class="p-1">Егор Бортников</p>
+											<p>Специалист по SMM<br /> и контенту</p>
+											<ul>
+												<li><a href="#"><i class="fa fa-vk"></i></a></li>
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="descript-box">
+									<p>Работая со мной, Вы можете лично познакомиться<br /> 
+									и поработать с каждым профессионалом своего <br /> 
+									дела из нашей команды </p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- /Section 11 -->
+
+					<!-- Section 12 -->
+
+					<div class="section section_12" id="section-12"  data-anchor="section-12">
+						<div class="inner_wrapp">
+							<div class="row center-block">
+								<h2>Мне доверяют</h2>
+								<div class="thumbnails_wrapp">
+									<div class="thumbnails_8 offset-ziro">
+										<div class="thumb_8 thumb_8_1">
+											<div class="img-box">
+												<img src="img/kit_shop.png" alt="" />
+											</div>
+											<p>продажа онлайн  касс и торгового оборудования</p>
+										</div>
+										<div class="thumb_8 thumb_8_2">
+											<div class="img-box">
+												<img src="img/mi.png" alt="" />
+											</div>
+											<p>организатор детских праздников</p>
+										</div>
+										<div class="thumb_8 thumb_8_3">
+											<div class="img-box">
+												<img src="img/npg.png" alt="" />
+											</div>
+											<p>поставщик строительных материалов на объекты любой сложности</p>
+										</div>
+										<div class="thumb_8 nobg">
+											<a class="thumb_8_link" href="#">Стань следующим, чей бизнес будет<br /> на конкурентном рынке</a>
+										</div>
+										<div class="thumb_8 thumb_8_4">
+											<div class="img-box">
+												<img src="img/fujifilm.png" alt="" />
+											</div>
+											<p>представительство Fujifilm в России</p>
+										</div>
+										<div class="thumb_8 thumb_8_5">
+											<div class="img-box">
+												<img src="img/matrix_racing.png" alt="" />
+											</div>
+											<p>спортивная команда шоссейно-кольцевых мотогонок в России.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- /Section 12 -->
+
+					<!-- Section 13 -->
+
+					<div class="section section_13" id="section-13"  data-anchor="section-13">
+						<div class="contacts_wrapp inner_wrapp map_wrapp">
+							<div id="map"></div>
+							<div class="row">
+								<div class="contacts-block">
+									<h2>Контакты</h2>
+									<div class="contacts-field">
+										<h3>Адрес:</h3>
+										<p>г. Москва ул. Бескудниковский б-р, д.6, корп. 4</p>
+									</div>
+									<div class="contacts-field">
+										<h3>Телефон:</h3>
+										<p><a href="tel:+78008080884">+7 (800) 808-08-84</a></p>
+									</div>
+									<div class="contacts-field">
+										<h3>E-mail:</h3>
+										<p><a href="email:+78008080884">egormarket@mail.ru</a></p>
+									</div>
+									<div class="contacts-field">
+										<h3>Рабочее время:</h3>
+										<p>пн. - пт. с 700 до 1700 <span class="small">(время московское)</span></p>
+									</div>
+									<div class="contacts-field">
+										<p>ИНН 771374077702</p>
+										<p>ОГРНИП 315774600241133</p>
+									</div>
+									<ul class="soc-links">
+										<li><a href="#"><img src="img/vk.png" alt="" /></a></li>
+										<li><a href="#"><img src="img/facebook.png" alt="" /></a></li>
+										<li><a href="#"><img src="img/instagram.png" alt="" /></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- /Section 13 -->
 
 			</div>
 		<!-- /Content -->
