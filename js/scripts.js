@@ -7,9 +7,9 @@ $(window).load(function() {
 
             var innerWrapp = $(this).find(".inner_wrapp");
 
-            $(this).css({
-                "padding-top" : headerSiteHeight + "px"
-            });
+            // $(this).css({
+            //     "padding-top" : headerSiteHeight + "px"
+            // });
 
             var contentHeight = innerWrapp.find(".center-block").height();            
 
@@ -56,13 +56,134 @@ $(document).ready(function() {
 
             $(this).prepend("<span class='item-num'>" + itemNum + ".</span>");
 
-
-
-
         });
 
     });
 
+
+    // var scrollEvent = false;
+
+    // var activeNavItemIndex;
+
+    // $(document).mousewheel(function() {
+
+    //     // console.log("sdsdsdsd");
+
+    //     $(".navbar-nav").find(".nav-item").each(function() {
+
+    //         if( $(this).hasClass("active") ) {
+    
+    //             activeNavItemIndex = $(this).index(".nav-item");
+
+    //             return false;
+
+    //         }
+
+    //     });
+
+    //     console.log(activeNavItemIndex);
+
+    // });
+
+    // $(document).scroll(function(e) {
+
+    //     // console.log(e);
+
+    //     if( e.type = "scroll" ) {
+
+    //         scrollEvent = true;
+
+    //     } else {
+
+    //         scrollEvent = false;
+
+    //     }
+
+    //     // console.log( element.addEventListener );
+
+    // });
+
+    // var timer = null;
+    // var mouseScroll;
+
+    // $(window).on('scroll', function() {
+
+    // $(".header-site").addClass("scrolling");
+    // $(".footer").addClass("scrolling");
+
+    // console.log("scrolling");
+
+    //   // clearTimeout(timer);
+
+    //   // scrollEvent == true;
+
+    //   // console.log( $(window).bind('mousewheel DOMMouseScroll MozMousePixelScroll') );s
+      
+    //   timer = setTimeout(function() {
+
+    //     $(".header-site").removeClass("scrolling");
+    //     $(".footer").removeClass("scrolling");
+
+    //     console.log("noscrolling");
+
+    //   }, 350);
+    // });
+
+
+
+    // $(window).bind('mousewheel DOMMouseScroll MozMousePixelScroll', function(event) {
+
+    //     console.log(event.clientY);
+
+    //     if( scrollEvent == false && mouseScroll == false) {
+
+    //         delta = parseInt(event.originalEvent.wheelDelta || -event.originalEvent.detail);
+
+    //         $(".navbar-nav").find(".nav-item").each(function() {
+
+    //             if( $(this).hasClass("active") ) {
+        
+    //                 activeNavItemIndex = $(this).index(".nav-item");
+
+    //                 return false;
+
+    //             }
+
+    //         });
+
+    //         if (delta >= 0) {
+
+    //             // console.log('Вверх');
+
+    //             if( $(".navbar-nav").find(".nav-item:eq("+ ( activeNavItemIndex - 1) + ")").hasClass("active") == false ) {
+
+    //                 $(".navbar-nav").find(".nav-item:eq("+ ( activeNavItemIndex - 1) + ") .nav-link").click();
+
+    //             }
+
+    //         } else {
+
+    //             // console.log('Вниз');
+
+    //             // $(".navbar-nav").find(".nav-item:eq("+ ( activeNavItemIndex + 1) + ") .nav-link").click();
+
+    //             if( $(".navbar-nav").find(".nav-item:eq("+ ( activeNavItemIndex + 1) + ")").hasClass("active") == false ) {
+
+    //                 $(".navbar-nav").find(".nav-item:eq("+ ( activeNavItemIndex + 1) + ") .nav-link").click();
+
+    //             }
+
+    //         }
+
+    //         // console.log(activeNavItemIndex);
+
+    //         scrollEvent = true;
+
+    //         mouseScroll = event.type;
+
+    //     }
+
+    // });
 
     function getSectionHeight() {
 
@@ -73,9 +194,9 @@ $(document).ready(function() {
 
             var innerWrapp = $(this).find(".inner_wrapp");
 
-            $(this).css({
-                "padding-top" : headerSiteHeight + "px"
-            });
+            // $(this).css({
+            //     "padding-top" : headerSiteHeight + "px"
+            // });
 
             var contentHeight = innerWrapp.find(".center-block").height();            
 
