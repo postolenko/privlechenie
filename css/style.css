@@ -2221,27 +2221,27 @@ p.grey-p {
 
 /*-- Gradients Backgrounds --*/
 
-.section:nth-child(1n) {
+.bg_1 {
     background-image: url(../img/bg_1.jpg);
 }
 
-.section:nth-child(2n) {
+.bg_2 {
     background-image: url(../img/bg_2.jpg);
 }
 
-.section:nth-child(3n) {
+.bg_3 {
     background-image: url(../img/bg_3.jpg);
 }
 
-.section:nth-child(4n) {
+.bg_4 {
     background-image: url(../img/bg_4.jpg);
 }
 
-.section:nth-child(5n) {
+.bg_5 {
     background-image: url(../img/bg_5.jpg);
 }
 
-.section:nth-child(6n) {
+.bg_6 {
     background-image: url(../img/bg_6.jpg);
 }
 
