@@ -1,9 +1,3 @@
-// $(window).on("load",function(){
-
-// 	$(".scroll").mCustomScrollbar();
-
-// });
-
 $(document).ready(function() {
 
 	var timerScroll;
@@ -42,8 +36,6 @@ $(document).ready(function() {
 			}, 800);
 		}
 	});
-
-	// $('.contentshow').contentshow();
 
 });
 
