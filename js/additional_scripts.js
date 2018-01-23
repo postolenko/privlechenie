@@ -29,6 +29,16 @@ $(document).ready(function() {
 				$(".header-site").removeClass("scrolling");
     			$(".footer").removeClass("scrolling");
 
+    			if( $(".section:eq("+ ( $(".section").length - 1 ) +")").hasClass("active") ) {
+
+    				$(".footer").addClass("visible");
+
+    			} else if( $(".footer").hasClass("visible") ){
+
+    				$(".footer").removeClass("visible");
+
+    			}
+
 			}, 800);
 		}
 	});

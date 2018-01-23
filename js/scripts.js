@@ -7,9 +7,13 @@ $(window).load(function() {
 
             var innerWrapp = $(this).find(".inner_wrapp");
 
-            // $(this).css({
-            //     "padding-top" : headerSiteHeight + "px"
-            // });
+            if( $(this).hasClass("callback_popup") ) {
+
+                $(this).css({
+                    "padding-top" : headerSiteHeight + "px"
+                });
+
+            }
 
             var contentHeight = innerWrapp.find(".center-block").height();            
 
@@ -57,6 +61,22 @@ $(document).ready(function() {
             $(this).prepend("<span class='item-num'>" + itemNum + ".</span>");
 
         });
+
+    });
+
+    $(".callback_btn").click(function(e) {
+
+        e.preventDefault();
+
+        $(".callback-wrapp").addClass("active");
+
+    });
+
+    $(".callback-wrapp .close-popup").click(function() {
+
+        var parentBlock = $(this).closest(".callback-wrapp");
+
+        parentBlock.removeClass("active");
 
     });
 
@@ -190,13 +210,17 @@ $(document).ready(function() {
         headerSiteHeight = $(".header-site").outerHeight();
         footerHeight = $(".footer").outerHeight();
 
-        $(".section").each(function() {        
+        $(".section").each(function() {
 
             var innerWrapp = $(this).find(".inner_wrapp");
 
-            // $(this).css({
-            //     "padding-top" : headerSiteHeight + "px"
-            // });
+            if( $(this).hasClass("callback_popup") ) {
+
+                $(this).css({
+                    "padding-top" : headerSiteHeight + "px"
+                });
+
+            }
 
             var contentHeight = innerWrapp.find(".center-block").height();            
 
