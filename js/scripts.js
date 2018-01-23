@@ -29,6 +29,14 @@ $(window).load(function() {
 
         });
 
+        $(".loadAnimate").addClass("loaded");
+
+        setTimeout( function() {
+            $(".loadAnimate").removeClass("loadAnimate");
+            $(".loadAnimate").removeClass("loaded");
+        }, 1000);
+        
+
 });
 
 $(document).ready(function() {

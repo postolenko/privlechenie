@@ -2342,4 +2342,93 @@ p.grey-p {
     transform: scale(1);
 }
 
+.loadAnimate .leftSlice {
+    left: -3% !important;
+    opacity: 0 !important;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: ease-in-out;
+
+    -moz-transition-property: all;
+    -moz-transition-duration: 1s;
+    -moz-transition-timing-function: ease-in-out;
+
+    -ms-transition-property: all;
+    -ms-transition-duration: 1s;
+    -ms-transition-timing-function: ease-in-out;
+
+    -o-transition-property: all;
+    -o-transition-duration: 1s;
+    -o-transition-timing-function: ease-in-out;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.loadAnimate.loaded .leftSlice {
+    left: 0 !important;
+    opacity: 1 !important;
+}
+
+.loadAnimate .fadeIn {
+    opacity: 0 !important;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: ease-in-out;
+
+    -moz-transition-property: all;
+    -moz-transition-duration: 1s;
+    -moz-transition-timing-function: ease-in-out;
+
+    -ms-transition-property: all;
+    -ms-transition-duration: 1s;
+    -ms-transition-timing-function: ease-in-out;
+
+    -o-transition-property: all;
+    -o-transition-duration: 1s;
+    -o-transition-timing-function: ease-in-out;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.loadAnimate.loaded .fadeIn {
+    opacity: 1 !important;
+}
+
+.loadAnimate .zoomFade {
+    -webkit-transform: scale(0) !important;
+    -moz-transform: scale(0) !important;
+    transform: scale(0) !important;
+    opacity: 0 !important;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: ease-in-out;
+
+    -moz-transition-property: all;
+    -moz-transition-duration: 1s;
+    -moz-transition-timing-function: ease-in-out;
+
+    -ms-transition-property: all;
+    -ms-transition-duration: 1s;
+    -ms-transition-timing-function: ease-in-out;
+
+    -o-transition-property: all;
+    -o-transition-duration: 1s;
+    -o-transition-timing-function: ease-in-out;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.loadAnimate.loaded .zoomFade {
+    opacity: 1 !important;
+    -webkit-transform: scale(1) !important;
+    -moz-transform: scale(1) !important;
+    transform: scale(1) !important;
+}
+
 /*-- /Animation --*/
