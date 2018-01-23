@@ -623,11 +623,14 @@ textarea:focus {
     /*background-color: #2e1466;*/
     margin: 0;
     padding: 0 75px;
-    background: rgb(47,15,98);
+/*    background: rgb(47,15,98);
     background: -moz-linear-gradient(-45deg, rgba(47,15,98,1) 0%, rgba(40,42,117,1) 50%, rgba(35,62,129,1) 100%);
     background: -webkit-linear-gradient(-45deg, rgba(47,15,98,1) 0%,rgba(40,42,117,1) 50%,rgba(35,62,129,1) 100%);
-    background: linear-gradient(135deg, rgba(47,15,98,1) 0%,rgba(40,42,117,1) 50%,rgba(35,62,129,1) 100%);
+    background: linear-gradient(135deg, rgba(47,15,98,1) 0%,rgba(40,42,117,1) 50%,rgba(35,62,129,1) 100%);*/
     /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f0f62', endColorstr='#233e81',GradientType=1 );*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .section_1 {
@@ -638,7 +641,7 @@ textarea:focus {
     /*padding-top: 58px;*/
     /*background-color: #2e1466;*/
     position: relative;
-    background-image: url(../img/section_1_bg.png);
+    /*background-image: url(../img/section_1_bg.png);*/
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2126,7 +2129,6 @@ p.grey-p {
   /*  background: -moz-linear-gradient(-45deg, rgba(47,15,98,1) 0%, rgba(40,42,117,1) 50%, rgba(35,62,129,1) 100%);
     background: -webkit-linear-gradient(-45deg, rgba(47,15,98,1) 0%,rgba(40,42,117,1) 50%,rgba(35,62,129,1) 100%);
     background: linear-gradient(135deg, rgba(47,15,98,1) 0%,rgba(40,42,117,1) 50%,rgba(35,62,129,1) 100%);*/
-    background-image: url(../img/bg_4.jpg);
     width: 110%;
     height: 130%;
     z-index: 1;
@@ -2184,6 +2186,7 @@ p.grey-p {
 
 .callback_popup .inner_wrapp {
     padding: 40px 0;
+    background-image: url(../img/section_4_bg.png);
 }
 
 .close-popup {
@@ -2246,3 +2249,97 @@ p.grey-p {
 }
 
 /*-- /Gradients Backgrounds --*/
+
+/*-- Animation --*/
+
+.leftSlice {
+    position: relative;
+    left: -3%;
+    opacity: 0;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: ease-in-out;
+
+    -moz-transition-property: all;
+    -moz-transition-duration: 1s;
+    -moz-transition-timing-function: ease-in-out;
+
+    -ms-transition-property: all;
+    -ms-transition-duration: 1s;
+    -ms-transition-timing-function: ease-in-out;
+
+    -o-transition-property: all;
+    -o-transition-duration: 1s;
+    -o-transition-timing-function: ease-in-out;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.section.active .leftSlice {
+    left: 0;
+    opacity: 1;
+}
+
+.fadeIn {
+    opacity: 0;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: ease-in-out;
+
+    -moz-transition-property: all;
+    -moz-transition-duration: 1s;
+    -moz-transition-timing-function: ease-in-out;
+
+    -ms-transition-property: all;
+    -ms-transition-duration: 1s;
+    -ms-transition-timing-function: ease-in-out;
+
+    -o-transition-property: all;
+    -o-transition-duration: 1s;
+    -o-transition-timing-function: ease-in-out;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.section.active .fadeIn {
+    opacity: 1;
+}
+
+.zoomFade {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: ease-in-out;
+
+    -moz-transition-property: all;
+    -moz-transition-duration: 1s;
+    -moz-transition-timing-function: ease-in-out;
+
+    -ms-transition-property: all;
+    -ms-transition-duration: 1s;
+    -ms-transition-timing-function: ease-in-out;
+
+    -o-transition-property: all;
+    -o-transition-duration: 1s;
+    -o-transition-timing-function: ease-in-out;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.section.active .zoomFade {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+}
+
+/*-- /Animation --*/

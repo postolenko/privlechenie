@@ -1,8 +1,8 @@
-$(window).on("load",function(){
+// $(window).on("load",function(){
 
-	$(".scroll").mCustomScrollbar();
+// 	$(".scroll").mCustomScrollbar();
 
-});
+// });
 
 $(document).ready(function() {
 
