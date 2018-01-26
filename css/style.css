@@ -641,6 +641,7 @@ textarea:focus {
     /*padding-top: 58px;*/
     /*background-color: #2e1466;*/
     position: relative;
+    width: calc(100vw - 150px);
     /*background-image: url(../img/section_1_bg.png);*/
     background-position: center;
     background-size: cover;
@@ -2046,24 +2047,26 @@ p.grey-p {
 }
 
 .footer .col-1 {
-    width: 25%;
+    width: 50%;
 }
 
 .footer .col-2 {
+    display: none;
     width: 50%;
     text-align: center;
 }
 
 .footer .col-3 {
-    width: 25%;
+    width: 50%;
     text-align: right;
 }
 
-.footer .col-2 .inner {
-    display: none;
+.footer.visible .col-1,
+.footer.visible .col-3 {
+    width: 25%;
 }
 
-.footer.visible .col-2 .inner {
+.footer.visible .col-2 {
     display: block;
 }
 

@@ -34,6 +34,22 @@
 	    padding: 12px 1%;
 	}
 
+	.row {
+		padding: 0 37px;
+	}
+
+	.section {
+	    padding: 0 35px;
+	}
+
+	.inner_wrapp {
+	    width: calc(100vw - 70px);
+	}
+
+	.navbar {
+	    right: 1.5%;
+	}
+
 	/*-- Section 1 --*/
 
 	.two-cols-templ .col-1 ul {
@@ -41,7 +57,7 @@
 	}
 
 	.form_abs {
-	    top: -41px;
+	    top: -34px;
 	}
 
 	.form_wrapp:after {
@@ -61,12 +77,16 @@
 	}
 
 	.form_wrapp h3 {
-	    font-size: 26px;
-	    line-height: 32px;
+	    font-size: 22px;
+	    line-height: 28px;
 	}
 
 	.inputs_wrapp {
 	    padding: 7px 0 2px 0;
+	}
+
+	.inputs_wrapp .input-block {
+	    margin: 15px 0;
 	}
 
 	p.grey-p {
@@ -294,8 +314,75 @@
 
 	/*-- /Section 13 --*/
 
+	/*-- Footer --*/
+
 	.footer {
 	    padding: 23px 0;
+	}
+
+	/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+	h2 {
+	    font-size: 38px;
+	    line-height: 42px;
+	}
+
+	h3 {
+	    font-size: 30px;
+	    line-height: 32px;
+	}
+
+	/*-- Section 1 --*/
+
+	.inner-form_wrapp {
+	    padding: 16px;
+	}
+
+	.form_wrapp h3 {
+	    font-size: 19px;
+	    line-height: 23px;
+	}
+
+	.form_wrapp p {
+	    font-size: 15px;
+	    line-height: 18px;
+	}
+
+	.inner-form {
+	    padding: 0 16px 7px 16px;
+	}
+
+	.inputs_wrapp {
+	    padding: 0 0 2px 0;
+	}
+
+	.inputs_wrapp .input-block {
+	    width: 100%;
+	    margin: 3px 0;
+	}
+
+
+
+	/*-- /Section 1 --*/
+
+}
+
+@media only screen and (max-width: 900px) {
+
+	.row {
+		padding: 0 37px;
+	}
+
+	.section {
+	    padding: 0 35px;
+	}
+
+	.inner_wrapp {
+	    width: calc(100vw - 70px);
 	}
 
 }
