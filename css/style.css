@@ -855,7 +855,7 @@ p.grey-p {
 /*-- Section 2 --*/
 
 .section_2 {
-    background: #261b65;
+    /*background: #261b65;*/
 }
 
 .section_2 .inner_wrapp {
@@ -864,6 +864,8 @@ p.grey-p {
 }
 
 .boss_photo {
+    width: 38%;
+    max-width: 486px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -959,7 +961,7 @@ p.grey-p {
 /*-- Section 3 --*/
 
 .section_3 {
-    background-color: #255255;
+    /*background-color: #255255;*/
 }
 
 .section_3 .inner_wrapp {
@@ -1060,7 +1062,7 @@ p.grey-p {
 /*-- Section 4 --*/
 
 .section_4 {
-    background: #3c1e5b;
+    /*background: #3c1e5b;*/
 }
 
 .section_4 .inner_wrapp {
@@ -1139,7 +1141,7 @@ p.grey-p {
 /*-- Section 5 --*/
 
 .section_5 {
-    background: #3c1e5b;
+    /*background: #3c1e5b;*/
 }
 
 .section_5 .inner_wrapp {
@@ -1216,7 +1218,7 @@ p.grey-p {
 /*-- Section 6 --*/
 
 .section_6 {
-    background: #3c1e5b;
+    /*background: #3c1e5b;*/
 }
 
 .section_6 .inner_wrapp {
@@ -1255,7 +1257,7 @@ p.grey-p {
 /*-- Section 7 --*/
 
 .section_7 {
-    background: #3c1e5b;
+    /*background: #3c1e5b;*/
 }
 
 .section_7 .inner_wrapp {
@@ -1335,7 +1337,7 @@ p.grey-p {
 /*-- Section 8 --*/
 
 .section_8 {
-    background: #3c1e5b;
+    /*background: #3c1e5b;*/
 }
 
 .section_8 .inner_wrapp {
@@ -1383,7 +1385,7 @@ p.grey-p {
 }
 
 .thumb_4 .desc {
-    text-align: justify;
+    text-align: left;
     position: relative;
 }
 
@@ -1432,7 +1434,7 @@ p.grey-p {
 /*-- Section 9 --*/
 
 .section_9 {
-    background: #3c1e5b;
+    /*background: #3c1e5b;*/
 }
 
 .section_9 .inner_wrapp {
@@ -1483,7 +1485,7 @@ p.grey-p {
 /*-- /Section 10 --*/
 
 .section_10 {
-    background: #cf6249;
+    /*background: #cf6249;*/
 }
 
 .section_10 .inner_wrapp {
@@ -1605,7 +1607,7 @@ p.grey-p {
 /*-- /Section 11 --*/
 
 .section_11 {
-    background: #404baf;
+    /*background: #404baf;*/
 }
 
 .section_11 .inner_wrapp {
@@ -1746,7 +1748,7 @@ p.grey-p {
 /*-- Section 12 --*/
 
 .section_12 {
-    background: #872fc3;
+    /*background: #872fc3;*/
 }
 
 .section_12 .inner_wrapp {
@@ -1874,7 +1876,7 @@ p.grey-p {
 /*-- Section 13 --*/
 
 .section_13 {
-    background: #872fc3;
+    /*background: #872fc3;*/
 }
 
 .contacts_wrapp {

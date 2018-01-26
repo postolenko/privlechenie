@@ -4,6 +4,265 @@
 
 }
 
+@media screen and (max-width: 1400px) , screen and (max-height: 750px) {
+
+	h2 {
+	    font-size: 41px;
+	    line-height: 45px;
+	}
+
+	h3 {
+	    font-size: 32px;
+	    line-height: 35px;
+	}
+
+	li {
+	    font-size: 16px;
+	    line-height: 21px;
+	}
+
+	li:before {
+	    background-position: left 3px;
+	}
+
+	/*-- Section 1 --*/
+
+	.two-cols-templ .col-1 ul {
+	    padding: 20px 0;
+	}
+
+	.form_abs {
+	    top: -41px;
+	}
+
+	.form_wrapp:after {
+	    left: 8px;
+	}
+
+	.inner-form_wrapp {
+	    padding: 24px;
+	}
+
+	.inner-form {
+	    padding: 9px 22px 12px 22px;
+	}
+
+	.inputs_wrapp {
+	    padding: 7px 0 2px 0;
+	}
+
+	.form_wrapp h3 {
+	    font-size: 26px;
+	    line-height: 32px;
+	}
+
+	.inputs_wrapp {
+	    padding: 7px 0 2px 0;
+	}
+
+	p.grey-p {
+	    font-size: 13px;
+	}
+
+	/*-- /Section 1 --*/
+
+	/*-- /Section 3 --*/
+
+	.thumb_2 h3 {
+	    padding: 10px 0;
+	    font-size: 22px;
+	}
+
+    /*-- /Section 3 --*/
+
+    /*-- Section 5 --*/
+
+    .article_2 {
+	    width: calc(100% - 300px);
+	    padding-left: 8%;
+	}
+
+	/*-- /Section 5 --*/
+
+    /*-- Section 4 --*/
+
+    .p-2 {
+	    font-size: 23px;
+	    line-height: 29px;
+	}
+
+	.form_2_wrapp .submit-btn_wrapp {
+	    margin: 4px 0 21px 0;
+	}
+
+	/*-- /Section 4 --*/
+
+	/*-- Section 6 --*/
+
+	.article_3 {
+	    margin-top: 40px;
+	}
+
+	/*-- /Section 6 --*/
+
+	/*-- Section 7 --*/
+
+	.thumb_3 .inner {
+	    min-height: 154px;
+	    padding: 21px 10px 23px 10px;
+	}
+
+	.thumb_3_5 {
+	    top: 89px;
+	}
+
+	/*-- /Section 7 --*/
+
+	/*-- Section 8 --*/
+
+	.article_4 {
+	    width: calc(100% - 249px);
+	}
+
+	.thumbnails_4 {
+	    margin: 41px -14px 10px -14px;
+	}
+
+	.thumb_4_2 {
+	    margin-top: 48px;
+	}
+
+	.thumb_4_3 {
+	    margin-top: -44px;
+	}
+
+	.thumb_4 {
+	    padding: 10px 14px;
+	}
+
+	.thumb_4:nth-child(1n) .desc:after {
+	    right: -11px;
+	}
+
+	.thumb_4:nth-child(3n) .desc:after {
+	    left: -17px;
+	}
+
+	.thumb_4 h3 {
+	    padding: 6px 0;
+	}
+
+	.thumb_4 p {
+	    font-size: 15px;
+	    line-height: 21px;
+	}
+
+	.callbak_box {
+	    width: 381px;
+	    height: 325px;
+	}
+
+	.callbak_box h3 {
+	    font-size: 24px;
+	    line-height: 31px;
+	}
+
+	.callbak_box p {
+	    font-size: 18px;
+	    line-height: 28px;
+	}
+
+	.callbak_box .red-pill {
+	    margin: 24px 0 10px 0;
+	}
+
+	/*-- /Section 8 --*/
+
+	/*-- Section 9 --*/
+
+	.thumbnails_5 {
+	    margin: 12px 0;
+	}
+
+	/*-- /Section 9 --*/
+
+	/*-- Section 10 --*/
+
+	.thumbnails_6 {
+	    height: 352px;
+	    top: -36px;
+	}
+
+	/*-- /Section 10 --*/
+
+	/*-- Section 11 --*/
+
+	.thumbnails_7 {
+	    margin: 0 -1%;
+	}
+
+	.thumb_7 {
+		margin: 10px 0;
+	    padding: 0 1%;
+	}
+
+	.thumb_7 p {
+	    font-size: 14px;
+	    line-height: 17px;
+	}
+
+	.thumb_7 p.p-1 {
+	    font-size: 17px;
+	    line-height: 19px;
+	}
+
+	.descript-box p {
+	    line-height: 21px;
+	}
+
+	/*-- /Section 11 --*/
+
+	/*-- Section 12 --*/
+
+	.thumb_8_1 {
+	    width: 231px;
+	    margin-left: 1%;
+	}
+
+	.thumb_8_2 {
+	    margin: 0 2% 0 4%;
+	}
+
+	.thumb_8_3 {
+	    margin-left: 10%;
+	}
+
+	.thumb_8_4 {
+	    width: 283px;
+	    margin-left: 0;
+	}
+
+	.thumb_8_5 {
+	    width: 260px;
+	    margin-left: 2%;
+	}
+
+	/*-- /Section 12 --*/
+
+	/*-- Section 13 --*/
+
+	.contacts-block {
+	    padding: 20px 2%;
+	}
+
+	.contacts-field {
+	    padding: 6px 0;
+	}
+
+	/*-- /Section 13 --*/
+
+}
+
 @media only screen and (max-width: 768px) {
 
 	
