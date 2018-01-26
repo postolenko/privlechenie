@@ -16,6 +16,11 @@
 	    line-height: 35px;
 	}
 
+	p {
+	    font-size: 14px;
+	    line-height: 21px;
+	}
+
 	li {
 	    font-size: 16px;
 	    line-height: 21px;
@@ -72,9 +77,13 @@
 
 	/*-- /Section 3 --*/
 
+	.thumb_2 .num {
+	    left: 4%;
+	}
+
 	.thumb_2 h3 {
 	    padding: 10px 0;
-	    font-size: 22px;
+	    font-size: 19px;
 	}
 
     /*-- /Section 3 --*/
@@ -189,8 +198,8 @@
 	}
 
 	.thumb_5 .img-box {
-    height: 276px;
-
+	    height: 276px;
+	}
 
 	/*-- /Section 9 --*/
 
@@ -210,8 +219,12 @@
 	}
 
 	.thumb_7 {
-		margin: 10px 0;
+		margin: 5px 0;
 	    padding: 0 1%;
+	}
+
+	.thumb_7 .img {
+	    height: 150px;
 	}
 
 	.thumb_7 p {
@@ -220,7 +233,7 @@
 	}
 
 	.thumb_7 p.p-1 {
-	    font-size: 17px;
+	    font-size: 16px;
 	    line-height: 19px;
 	}
 
@@ -260,14 +273,22 @@
 	/*-- Section 13 --*/
 
 	.contacts-block {
-	    padding: 20px 2%;
+	    padding: 20px 2% 10px 2%;
 	}
 
 	.contacts-field {
 	    padding: 6px 0;
 	}
 
+	.soc-links {
+	    margin: 2px -8px;
+	}
+
 	/*-- /Section 13 --*/
+
+	.footer {
+	    padding: 23px 0;
+	}
 
 }
 
