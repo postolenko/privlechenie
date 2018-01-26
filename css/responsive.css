@@ -25,6 +25,10 @@
 	    background-position: left 3px;
 	}
 
+	.red-pill {
+	    padding: 12px 1%;
+	}
+
 	/*-- Section 1 --*/
 
 	.two-cols-templ .col-1 ul {
@@ -183,6 +187,10 @@
 	.thumbnails_5 {
 	    margin: 12px 0;
 	}
+
+	.thumb_5 .img-box {
+    height: 276px;
+
 
 	/*-- /Section 9 --*/
 
