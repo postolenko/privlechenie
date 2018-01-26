@@ -1434,7 +1434,7 @@ p.grey-p {
 /*-- Section 9 --*/
 
 .section_9 {
-    /*background: #3c1e5b;*/
+
 }
 
 .section_9 .inner_wrapp {
@@ -1495,6 +1495,19 @@ p.grey-p {
 .section_10 h2 {
     position: relative;
     z-index: 2;
+}
+
+.section_10 .inner_wrapp:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../img/petlya.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .thumbnails_6 {
