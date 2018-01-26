@@ -638,11 +638,8 @@ textarea:focus {
 }
 
 .inner_wrapp {
-    /*padding-top: 58px;*/
-    /*background-color: #2e1466;*/
     position: relative;
     width: calc(100vw - 150px);
-    /*background-image: url(../img/section_1_bg.png);*/
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1772,6 +1769,7 @@ p.grey-p {
 .thumbnails_8 {
     height: 400px;
     margin: 4px 0;
+    text-align: center;
 }
 
 .thumb_8 {
