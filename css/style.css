@@ -85,7 +85,7 @@ body {
 
 .wrapper {
     width: 100%;
-    min-width: 1182px;
+    /*max-width: 1182px;*/
     position: relative;
 }
 
@@ -376,11 +376,12 @@ textarea:focus {
 
 /*-- Links AND Button --*/
 
-.trnsparent-pill {
+.transparent-pill {
     min-width: 184px;
     background-color: transparent;
     background-image: none;
     border: 1px solid #ffffff;
+    margin: 10px 0 10px 15px;
     padding: 7px 1%;
     -webkit-border-radius: 22px;
     -moz-border-radius: 22px;
@@ -393,21 +394,21 @@ textarea:focus {
     cursor: pointer;
 }
 
-.trnsparent-pill:link,
-.trnsparent-pill:visited {
+.transparent-pill:link,
+.transparent-pill:visited {
     border: 1px solid #e8e8e8;
     background-image: none;
 }
 
-.trnsparent-pill.active,
-.trnsparent-pill:active {
+.transparent-pill.active,
+.transparent-pill:active {
     border: 1px solid transparent;
     background-image: -moz-linear-gradient( 83deg, rgb(195,0,18) 1%, rgb(225,2,29) 38%, rgb(255,3,39) 99%);
     background-image: -webkit-linear-gradient( 83deg, rgb(195,0,18) 1%, rgb(225,2,29) 38%, rgb(255,3,39) 99%);
     background-image: -ms-linear-gradient( 83deg, rgb(195,0,18) 1%, rgb(225,2,29) 38%, rgb(255,3,39) 99%);
 }
 
-.trnsparent-pill:hover {
+.transparent-pill:hover {
     border: 1px solid transparent;
     background-image: -moz-linear-gradient( 83deg, rgb(195,0,18) 1%, rgb(225,2,29) 38%, rgb(255,3,39) 99%);
     background-image: -webkit-linear-gradient( 83deg, rgb(195,0,18) 1%, rgb(225,2,29) 38%, rgb(255,3,39) 99%);
@@ -548,7 +549,7 @@ textarea:focus {
 }
 
 .header-site .trnsparent-pill {
-    margin: 10px 15px;
+    margin: 10px 0 10px 15px;
 }
 
 /*-- Nav --*/
@@ -639,7 +640,7 @@ textarea:focus {
 
 .inner_wrapp {
     position: relative;
-    width: calc(100vw - 150px);
+    width: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -651,6 +652,10 @@ textarea:focus {
 .section_1 .inner_wrapp {
     padding-top: 58px;
     background-image: url(../img/section_1_bg.png);
+}
+
+.resp-logo {
+    display: none;
 }
 
 .two-cols-templ {
@@ -701,9 +706,10 @@ textarea:focus {
 }
 
 .form_abs {
+    max-width: 630px;
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
 }
 
 .inner-form_wrapp {
@@ -1902,6 +1908,7 @@ p.grey-p {
 }
 
 .contacts_wrapp .row {
+    height: 1px;
     position: relative;
     z-index: 2;
 }
@@ -2017,7 +2024,7 @@ p.grey-p {
     position: fixed;
     bottom: 0;
     left: 0;
-    padding: 30px 0;
+    padding: 25px 0;
     z-index: 5;
     -webkit-transition-property: all;
     -webkit-transition-duration: .3s;
@@ -2046,16 +2053,19 @@ p.grey-p {
 
 .footer .col-1 {
     width: 50%;
+    padding: 5px 0;
 }
 
 .footer .col-2 {
     display: none;
     width: 50%;
+    padding: 5px 0;
     text-align: center;
 }
 
 .footer .col-3 {
     width: 50%;
+    padding: 5px 0;
     text-align: right;
 }
 
