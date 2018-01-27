@@ -543,6 +543,8 @@ textarea:focus {
 /*-- Nav --*/
 
 .navbar {
+    width: 2px;
+    height: 89vh;
     position: fixed;
     top: 50%;
     right: 2%;
@@ -550,10 +552,17 @@ textarea:focus {
     -webkit-transform: translate(0, -50%);
     -moz-transform: translate(0, -50%);
     transform: translate(0, -50%);
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+    flex-direction: -webkit-column;
 }
 
 .nav-item {
-    padding: 0;
+    display: block;
+    position: relative;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
 }
 
 .nav-item:before {
@@ -562,9 +571,11 @@ textarea:focus {
 
 .nav-link {
     display: block;
-    height: 46px;
+    height: 84%;
     width: 2px;
-    margin: 3px 0;
+    position: absolute;
+    top: 8%;
+    left: 0;
     background: rgba(255, 255, 255, .3);
     -webkit-transition-property: all;
     -webkit-transition-duration: .3s;

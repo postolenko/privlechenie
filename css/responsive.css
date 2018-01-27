@@ -707,6 +707,14 @@
 	    background-image: none;
 	}
 
+	/*-- Callback Popup --*/
+
+	.callback_popup {
+		padding: 30px 0 0 0;
+	}
+
+	/*-- /Callback Popup --*/
+
 	/*-- Header --*/
 
 	.header-site {
@@ -817,14 +825,6 @@
 
 	/*-- Footer --*/
 
-	/*-- Callback Popup --*/
-
-	.callback_popup {
-		padding: 30px 0;
-	}
-
-	/*-- /Callback Popup --*/
-
 	/*-- Animation --*/
 
 	.section .leftSlice {
@@ -886,11 +886,13 @@
 	.close-popup {
 		width: 36px;
 	    height: 36px;
+	    top: 15px;
 	}
 
 	.close-popup span {
 	    width: 39px;
 	}
+
 
 	/*-- /Callback Popup --*/
 
