@@ -1,3 +1,9 @@
+$(window).load(function() {
+
+	$(".scroll")
+
+});
+
 $(document).ready(function() {
 
 	var w = window,
