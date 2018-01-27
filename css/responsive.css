@@ -649,7 +649,7 @@
 	}
 
 	.transparent-pill {
-	    min-width: none;
+	    min-width: auto !important;
 	    background-image: none;
 	    border-top: none;
 	    border-left: none;
