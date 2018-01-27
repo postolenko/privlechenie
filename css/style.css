@@ -1875,25 +1875,12 @@ p.grey-p {
     margin: -13px 0 0 0;
 }
 
-.inner {
-
-}
-
 /*-- /Section 12 --*/
 
 /*-- Section 13 --*/
 
-.section_13 {
-    /*background: #872fc3;*/
-}
-
 .contacts_wrapp {
     position: relative;
-    background-color: #ffffff;
-    background-image: url(../img/map.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     padding-top: 0 !important;
 }
 
