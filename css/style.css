@@ -1679,7 +1679,7 @@ p.grey-p {
 .thumb_7 ul li {
     display: inline-block;
     vertical-align: top;
-    width: unset;
+    width: 50px;
     padding: 5px;
     outline: 1px solid red;
     text-align: center;
