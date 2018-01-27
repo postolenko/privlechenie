@@ -1676,19 +1676,21 @@ p.grey-p {
     color: #eab876;
 }
 
-.thumb_7 ul {
-
-}
-
 .thumb_7 ul li {
     display: inline-block;
     vertical-align: top;
     width: unset;
     padding: 5px;
+    text-align: center;
 }
 
 .thumb_7 ul li:before {
     display: none;
+}
+
+.thumb_7 ul li a {
+    display: inline-block;
+    vertical-align: top;
 }
 
 .thumb_7 ul li a i {
