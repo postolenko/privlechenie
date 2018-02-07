@@ -748,6 +748,10 @@
 		position: relative;
 	}
 
+	.scroll-down {
+		display: none;
+	}
+
 	/*-- /Section 1 --*/
 
 	/*-- Section 11 --*/
