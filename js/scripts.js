@@ -97,6 +97,22 @@ $(document).ready(function() {
 
     });
 
+    $(".submit_btn").click( function(){
+
+        $("body").css({
+            "position" : "fixed"
+        });
+
+        setTimeout(function() {
+
+            $("body").css({
+                "position" : "unset"
+            });
+
+        }, 500);
+
+    });
+
 });
 
 function getSectionHeight() {
